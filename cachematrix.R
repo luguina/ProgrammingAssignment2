@@ -12,7 +12,7 @@
 ##       | 1  0  1 |
 ##       | 0  1  0 |
 ##
-## If the functions work well, the resultant A(-1) (inverse matrix) will be:
+## If the functions works well, the resultant A(-1) (inverse matrix) will be:
 ##
 ##   A(-1) = |  1  0 -1 |
 ##           |  0  0  1 |
@@ -25,7 +25,7 @@
 
 makeCacheMatrix <- function( x = matrix() ) {
    cached <- NULL         ## when calling the function or when invoking the
-                          # $set method we flush the cached matrix   
+                          ## $set method we flush the cached matrix   
 
    ## setter method
    set <- function( y ) {
